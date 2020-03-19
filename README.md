@@ -1,6 +1,6 @@
 # SARA Dataset
 
-Synthetic dataset using for model training in our paper [_A Body Part Embedding Model With Datasets for Measuring Human Motion Similarity in 2D_](https://www.overleaf.com/1277422435svrhgrnqbpgv), ECCV 2020.
+Synthetic dataset used for model training in the ECCV20 paper [_A Body Part Embedding Model With Datasets for Measuring Human Motion Similarity in 2D_](https://www.overleaf.com/1277422435svrhgrnqbpgv).
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ Synthetic dataset using for model training in our paper [_A Body Part Embedding 
 
 - Clone this repository
 
-- Preprocess the dataset (split motion into fixed frames)
+- Preprocess the dataset (performs motions split into fixed frames)
   
   ```bash
   python preprocess.py /path/to/the/extracted/
