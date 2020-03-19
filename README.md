@@ -25,8 +25,8 @@ Synthetic dataset using for model training in our paper [_A Body Part Embedding 
     SARA_released
     |-- test
     |-- train
-    `-- |-- Character_Id
-        `-- |-- Action_Id
+    `-- |-- Character_ID
+        `-- |-- Action_ID
             `-- |-- The number of frames of the action
                 `-- |-- Motion variations
                     |   |-- motion.npy (full-frame motion)
@@ -36,5 +36,16 @@ Synthetic dataset using for model training in our paper [_A Body Part Embedding 
                         |-- |-- ...
    ```
 
-## Acknowledgments
-This code borrows heavily from [2D-Motion-Retargeting](https://github.com/ChrisWu1997/2D-Motion-Retargeting) 
+## Example of Data Path
+
+  ```
+  train/FuseFemaleA/Adventure3/100/Height_1|Activity_-1
+  ```
+  
+  `FuseFemaleA` : Character Id. Each character has different body structure.
+
+  `Adventure3` : Motion category + ID.
+  
+  `100` : Motion frame length. Even the same motion can vary in length depending on the variation characteristics.
+
+  `Height_1|Activity_-1` : The `Height` characteristic has a value of 1, and the `Activity` characteristic has a value of -1. Values range from -1 to 1.
