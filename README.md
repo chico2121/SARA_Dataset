@@ -26,8 +26,8 @@ Synthetic dataset using for model training in our paper [_A Body Part Embedding 
     |-- test
     |-- train
     `-- |-- Character_ID
-        `-- |-- Action_ID
-            `-- |-- The number of frames of the action
+        `-- |-- Motion_ID
+            `-- |-- The number of frames
                 `-- |-- Motion variations
                     |   |-- motion.npy (full-frame motion)
                     `-- |-- motions
