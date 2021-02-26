@@ -1,6 +1,6 @@
 # SARA Dataset
 
-Synthetic dataset used for model training in the ECCV20 paper [_A Body Part Embedding Model With Datasets for Measuring Human Motion Similarity in 2D_](https://www.overleaf.com/1277422435svrhgrnqbpgv).
+Synthetic dataset used for model training in the IEEE Access paper "A Body Part Embedding Model With Datasets for Measuring Human Motion Similarity in 2D."
 
 ## Prerequisites
 
