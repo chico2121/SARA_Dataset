@@ -1,6 +1,6 @@
 # SARA Dataset
 
-Synthetic dataset used for model training in the IEEE Access paper "A Body Part Embedding Model With Datasets for Measuring Human Motion Similarity in 2D."
+Synthetic dataset used for model training in the IEEE Access paper, [A Body Part Embedding Model with Datasets for Measuring 2D Human Motion Similarity](https://ieeexplore.ieee.org/document/9366759).
 
 ## Prerequisites
 
