@@ -1,6 +1,7 @@
 import os
 import numpy as np
 import sys
+import shutil
 
 
 def split_frames(data_root, split_length=32, max_frame=300):
@@ -40,6 +41,15 @@ def split_frames(data_root, split_length=32, max_frame=300):
                             window = animation[:, :, i * (split_length // 2): i * (split_length // 2) + split_length]
                             np.save(save_path, window)
                             print(save_path, window.shape)
+                            
+                remain_variations = os.listdir(variation_p_dir)
+                for remain in remain_variations:
+                    if len(os.listdir(os.path.join(variation_p_dir, remain))) == 1:
+                        shutil.rmtree(os.path.join(variation_p_dir, remain))
+
+                if len(os.listdir(variation_p_dir)) == 0:
+                    os.rmdir(variation_p_dir)
+
 
 
 if __name__ == '__main__':
